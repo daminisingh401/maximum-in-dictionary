@@ -1,0 +1,11 @@
+Question 2)
+
+def Convert(a):
+    it=iter(a)
+    res_dct=dict(zip(it,it))
+    return res_dct
+dict1={"1" : "name1","2" : "name2","3" : "name3"}
+dict2={"1" : 50,"2" : 60,"3" : 70}
+m=max(dict2)
+lst=[str(m),dict2[m]]
+print(Convert(lst))
